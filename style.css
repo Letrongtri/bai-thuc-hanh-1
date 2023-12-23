@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+}
+body {
+  background-color: rgb(255, 200, 145);
+  color: green;
+}
+h1 {
+  font-size: 24px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+h2 {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+.content {
+  border-bottom: 2px solid green;
+}
+.content__img {
+  width: 200px;
+  margin: 10px;
+  display: inline;
+  float: left;
+}
+.first--text {
+  padding: 20px 5px;
+}
+.second--text {
+  padding: 0 10px 0 5px;
+  clear: left;
+}
+.footer {
+  font-size: small;
+}
+.footer__icon {
+  width: 30px;
+}
